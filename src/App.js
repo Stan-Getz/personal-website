@@ -11,7 +11,7 @@ class App extends React.Component {
           className="background-img"
           style={{
             backgroundImage:
-              'linear-gradient(to bottom, rgba(8, 8, 8, 1), rgba(28, 28, 28, 0.7), rgba(195, 195, 195, 0.25)), url(/img/banner.jpg)',
+              'linear-gradient(to bottom, rgba(8, 8, 8, 1), rgba(28, 28, 28, 0.7), rgba(50, 50, 50, 0.5)), url(/img/banner.jpg)',
           }}
         >
           <Navbar />
