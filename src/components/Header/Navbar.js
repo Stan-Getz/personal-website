@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './Navbar.css';
-import logo from '../../logo_round_150.png';
+import profPic from '../../logo_round_150.png';
 
 class Navbar extends React.Component {
   render() {
@@ -11,10 +11,10 @@ class Navbar extends React.Component {
           <div className="navbar-container">
             <div className="navbar-left">
               <Link to="/">
-                <img src={logo} alt="logo" className="logo" />
+                <h1 className="initials">sg</h1>
               </Link>
             </div>
-            <div className="navbar-right">
+            <div className="navbar-center">
               <div className="menu-items">
                 <Link to="/">home</Link>
                 <Link to="/portfolio">portfolio</Link>
@@ -22,6 +22,9 @@ class Navbar extends React.Component {
                 <Link to="/resume">resume</Link>
                 <Link to="/contact">contact</Link>
               </div>
+            </div>
+            <div className="navbar-right">
+              <img src={profPic} alt="logo" className="prof-pic" />
             </div>
           </div>
         </nav>
