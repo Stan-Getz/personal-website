@@ -5,3 +5,8 @@
   --lightGrey: #c3c3c3;
   --mainWhite: #f6f6f6;
 }
+
+.background-img {
+  height: 100vh;
+  width: 100vw;
+}
