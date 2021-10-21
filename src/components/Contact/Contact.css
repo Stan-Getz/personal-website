@@ -22,10 +22,6 @@
   font-weight: 500;
 }
 
-.arrow-container * {
-  /* margin: 20px 20px 0; */
-}
-
 @media screen and (min-width: 0) and (max-width: 900px) {
   .contact-title {
     margin-bottom: 0;
