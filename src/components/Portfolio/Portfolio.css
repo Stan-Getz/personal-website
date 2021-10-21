@@ -1,0 +1,26 @@
+.pf-container {
+  background: var(--mainBlack);
+  opacity: 0.8;
+  padding: 15px 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 50vw;
+  align-items: center;
+}
+
+.pf-title h2 {
+  color: var(--mainWhite);
+  text-transform: capitalize;
+  font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
+  font-size: calc((6.4 - 1) * 1.2vw + 1rem);
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.pf-container p {
+  color: var(--mainWhite);
+  text-align: center;
+  font-size: 2rem;
+}
