@@ -1,7 +1,13 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Header/Navbar';
 import Hero from './components/Hero/Hero';
+import Portfolio from './components/Portfolio/Portfolio';
+import About from './components/About/About';
+import Resume from './components/Resume/Resume';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 class App extends React.Component {
   render() {
@@ -14,11 +20,15 @@ class App extends React.Component {
               'linear-gradient(to bottom, rgba(8, 8, 8, 1), rgba(28, 28, 28, 0.7), rgba(50, 50, 50, 0.5)), url(/img/banner.jpg)',
           }}
         >
-          <Navbar />
-          <Hero />
-        </div>
-        <div className="footer">
-          <h1>Footer</h1>
+          <Router>
+            <Navbar />
+            <Hero />
+            <Portfolio />
+            <About />
+            <Resume />
+            <Contact />
+            <Footer />
+          </Router>
         </div>
       </React.Fragment>
     );
