@@ -16,14 +16,14 @@ class Hero extends React.Component {
             </h1>
             <div className="text-container">
               <p>
-                I'm passionate about software and technologies and consider that
+                I'm passionate about software and technologies and I think that
                 everyone should learn to code in order to get the most out of
-                the things that surround us and just because coding means a lot
+                the things that surround us and simply because coding is a lot
                 of fun. As my next career step, I'd love to be a part of a
                 company which brings state-of-the-art technologies in web
                 development to more and more customers, and thus to contribute
                 with my own experience and newly gained knowledge to making the
-                world a more user-friendly place.
+                Internet a more user-friendly place.
               </p>
             </div>
             <div className="hero-btn-container">

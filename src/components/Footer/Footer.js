@@ -71,7 +71,7 @@ class Footer extends React.Component {
             </div>
           </div>
           <div className="signature">
-            © 2021 SG. All rights reserved. Developed by Stanislav Genunchi
+            © 2023 SG. All rights reserved. Developed by Stanislav Genunchi
           </div>
           <div className="terms-privacy-container">
             <Link to="/terms">terms & conditions</Link>

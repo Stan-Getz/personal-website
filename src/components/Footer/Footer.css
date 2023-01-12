@@ -21,6 +21,7 @@
 
 .soc-btn-container *:hover {
   color: var(--mainWhite);
+  transition: 0.2s;
 }
 
 .signature {
